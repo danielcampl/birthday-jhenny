@@ -1,0 +1,27 @@
+body {
+  background-color: #fdbf00;
+}
+
+button {
+  border: 1px solid #ffffff;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-family: 'Silkscreen', cursive;
+  outline: none;
+  background: rgba(209, 10, 10, 0.164);
+  color: #d4cfcf;
+  font-weight: 600;
+  font-size: 17px;
+  border-radius: 2px;
+}
+
+button:hover {
+  background: rgba(209, 10, 10, 0.37);
+  color: #000;
+  left: -5px;
+  top: 0;
+  transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transform: skewX(-5deg);
+}
