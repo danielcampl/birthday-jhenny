@@ -21,18 +21,19 @@ export default function Home() {
             <div class="back"></div>
           </div>
           <div class="inside">
-            <p>Apenas uma lembrança de bons momentos. Desejamos parabéns para você.</p>
+            <p>
+              Apenas uma lembrança de bons momentos. Desejamos parabéns para
+              você.
+            </p>
             <h3>Com Amor:</h3>
             <p>Daniel (Silva 16264)</p>
             <p>Khimi (Khimi 15912)</p>
             <h2>&#127873;</h2>
           </div>
+          <Link to="/photos">
+            <button>Veja nossas fotos</button>
+          </Link>
         </div>
-      </div>
-      <div className="home-btn">
-        <Link to="/photos">
-          <button>Veja nossas fotos</button>
-        </Link>
       </div>
     </div>
   );
