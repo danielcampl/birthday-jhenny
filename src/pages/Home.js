@@ -10,8 +10,7 @@ export default function Home() {
         <div class="card">
           <div class="outside">
             <div class="front">
-              <p>Parabéns</p>
-              <p>(Mudinha 14218)</p>
+              <p>Parabéns (Mudinha 14218)</p>
               <div class="cake">
                 <div class="top-layer"></div>
                 <div class="middle-layer"></div>
