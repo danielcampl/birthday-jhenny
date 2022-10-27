@@ -10,7 +10,8 @@ export default function Home() {
         <div class="card">
           <div class="outside">
             <div class="front">
-              <p>Parabéns (Mudinha 14218)</p>
+              <p>Parabéns</p>
+              <p>(Mudinha 14218)</p>
               <div class="cake">
                 <div class="top-layer"></div>
                 <div class="middle-layer"></div>
@@ -29,7 +30,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="home-btn">
         <Link to="/photos">
           <button>Veja nossas fotos</button>
         </Link>

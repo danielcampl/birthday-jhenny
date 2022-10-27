@@ -25,3 +25,16 @@ button:hover {
   -webkit-transition: all 0.3s ease-out;
   transform: skewX(-5deg);
 }
+
+@media only screen and (max-width: 620px) {
+  .home-btn {
+    position: absolute;
+    top: 800px;
+    left: 160px;
+    width: 300px;
+  }
+  .card {
+    width: 600px;
+    height: 450px;
+  }
+}
